@@ -278,11 +278,14 @@ section.hero {
     border-radius: 5px;
     background-color: rgb(222, 222, 222);
     font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
 }
 
 .event-url:hover {
     height: initial;
-    border: 1px solid #056FFF;
+    border: 1px solid gray;
     box-shadow: 1px 1px 10px 4px lightgrey;
     padding: 10px 20px;
     border-radius: 4px;
@@ -292,7 +295,6 @@ section.hero {
 .event-list .container {
     box-shadow: 1px 1px 10px 1px lightgrey;
 }
-
 /*************************************************************/
 /* Contacto y formulario */
 /*************************************************************/
