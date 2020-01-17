@@ -67,7 +67,7 @@ h1 {
 }
 
 h1 strong {
-    color: black;
+    color: rgb(222, 222, 222);
 }
 
 h2 {
@@ -224,6 +224,12 @@ section.hero {
     max-width: 100%;
 }
 
+.aqui {
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+}
+
 /*************************************************************/
 /* Eventos */
 /*************************************************************/
@@ -269,6 +275,8 @@ section.hero {
     padding: 5px 20px;
     text-decoration: none;
     border-radius: 5px;
+    background-color: rgb(222, 222, 222);
+    font-weight: bold;
 }
 
 .event-url:hover {
@@ -289,7 +297,7 @@ section.hero {
 /*************************************************************/
 
 .contact {
-    background-color: #056fff;
+    background-color: grey;
     color: white;
     height: 150px;
     display: flex;
@@ -300,7 +308,7 @@ section.hero {
 
 .social-link {
     display: inline-block;
-    font-size: 3.2em;
+    font-size: 2.2em;
     color: white;
     margin:0 10px;
     text-decoration: none;
@@ -365,7 +373,7 @@ section.hero {
 
 .footer {
     color: white;
-    background: #1b2127;
+    background: black;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
