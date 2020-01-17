@@ -30,6 +30,7 @@
   
   .icon-menu:before {
     content: "\e9bd";
+    font-size: 33px;
   }
   .icon-facebook:before {
     content: "\ea90";
@@ -417,18 +418,19 @@ section.hero {
 /*************************************************************/
 
 .burger-button {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     background-color: rgba(43, 40, 40, 0.7);
     display: none;
     position: fixed;
     z-index: 4;
-    left: 5px;
-    top: 5px;
+    left: 7px;
+    top: 7px;
     color:white;    
     line-height: 40px;
     text-align: center;
+    padding: 12px;
 }
 
 
@@ -493,7 +495,7 @@ section.hero {
     }
 
     .menu {
-        background-color: rgb(5, 111, 255, .7);
+        background-color: rgba(43, 40, 40, 0.7); 
         position: fixed;
         z-index: 3;
         top: 0;
