@@ -54,6 +54,63 @@ body {
     margin: 0;
 }
 
+.background {
+    background-image: url(../img/background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.question-container {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    top: 45%;
+    left: 50%;
+    border: 3px transparent gray;
+    background-color: rgba(255, 255, 255, 0.9);
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.question {
+    margin-top: 20%;
+    font-size: 60px;
+}
+
+.ring-container {
+    margin-top: 17%;
+}
+
+.ring {
+    height: 200px;
+    border-radius: 50%;
+}
+
+.congrats {
+    margin-top: 25%;
+    font-size: 64px;
+    color: silver;
+    font-weight: bold;
+}
+
+.responses {
+    margin-top: 20%;
+}
+
+.phrase {
+    margin-top: 25%;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Fjalla One', sans-serif;
     font-weight: normal;
@@ -281,6 +338,28 @@ section.hero {
     color: black;
     border-style: solid;
     border-width: 1px 1px 1px 1px;
+}
+
+.event-url-2 {
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(244, 244, 244);
+    font-size: 24px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+}
+
+.yes {
+    padding: 5px 25px;
+    margin-right: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.no {
+    padding: 5px 20px;
+    margin-left: 10px;
+    color: gray;
 }
 
 .event-url:hover {
